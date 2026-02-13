@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Search, Plus, Edit2, Trash2, Star, X, Save, ExternalLink, Globe } from 'lucide-react';
 import { api } from '@/lib/api';
 
-export default function BookmarksPage() {
+export default function BookmarksPage() {  
   const [bookmarks, setBookmarks] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [tags, setTags] = useState('');
